@@ -52,7 +52,7 @@ public class MainActivity extends AppCompatActivity {
     //Integer num[] = new Integer[cardname.length];
     Integer count =cardname.length+1;
     Integer num[] = new Integer[count];
-    
+
 
     ///--- เวลาจะเคลัยร์ค่าให้เรียกจาก class PlayAR ลบobj ออกจาก scene เพราะเรากำหนดค่า static scene ดังนั้นมันจะจำค่าที่ update ล่าสุดเอาไว้ทดสอบใน test_static แล้วมันเก็บค่าล่สุดเอาไว้เพราะงั้นน่าจะทำได้
 
