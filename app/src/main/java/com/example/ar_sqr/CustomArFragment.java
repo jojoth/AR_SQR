@@ -23,11 +23,15 @@ public class CustomArFragment extends ArFragment {
 
         Config config = new Config(session);
         config.setUpdateMode(Config.UpdateMode.LATEST_CAMERA_IMAGE);
+        config.setFocusMode(Config.FocusMode.AUTO);
+        
 
         AugmentedImageDatabase aid = new AugmentedImageDatabase(session);
 
         Bitmap image = BitmapFactory.decodeResource(getResources(), R.drawable.musician_ori);
-        aid.addImage("image", image);
+        Bitmap img_singer = BitmapFactory.decodeResource(getResources(), R.drawable.singer);
+        aid.addImage("musicial", image);
+        aid.addImage("singer",img_singer);
 
         config.setAugmentedImageDatabase(aid);
 
