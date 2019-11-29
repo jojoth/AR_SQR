@@ -35,14 +35,31 @@ dependencies {
 }
 
 
-sceneform.asset('sampledata/video_screen.obj',
+
+
+
+
+sceneform.asset('sampledata/screen13.obj',
         'default',
-        'sampledata/video_screen.sfa',
-        'src/main/assets/video_screen')
+        'sampledata/screen13.sfa',
+        'src/main/assets/screen13')
 
-
-
-sceneform.asset('sampledata/screen7.obj',
+sceneform.asset('sampledata/screen14.obj',
         'default',
-        'sampledata/screen7.sfa',
-        'src/main/assets/screen7')
+        'sampledata/screen14.sfa',
+        'src/main/assets/screen14')
+
+sceneform.asset('sampledata/screen15.obj',
+        'default',
+        'sampledata/screen15.sfa',
+        'src/main/assets/screen15')
+
+sceneform.asset('sampledata/screen17.obj',
+        'sampledata/material.mat',
+        'sampledata/screen17.sfa',
+        'src/main/assets/screen17')
+
+sceneform.asset('sampledata/screen18.obj',
+        'sampledata/material.mat',
+        'sampledata/screen18.sfa',
+        'src/main/assets/screen18')
